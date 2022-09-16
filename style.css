@@ -1,0 +1,29 @@
+header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: black;
+  height: 70px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-right: 90px;
+  margin-top: 25px;
+  font-size: 19px;
+  font-weight: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.links:hover {
+  color: rgb(24, 211, 24);
+  transition: 0.4s;
+}/*# sourceMappingURL=style.css.map */
