@@ -1,26 +1,132 @@
 body {
-    background-color: rgb(48, 48, 48);
+  background-color: rgb(48, 48, 48);
+  padding: 0px;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+  }
 
 .logo1 {
-    height: 35px;
-    margin-top: 15px;
-    margin-left: 40px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 40px;
 }
 #bar {
-    background-color: rgb(48, 48, 48);
-    height: 25px;
-    width: 270px;
-    margin-right: 160px;
-    margin-top: 20px;
-    float: right;
-    border-style: solid;
-    border-color: white;
-    border-radius: 12px;
-    padding-left: 12px;
-    color: rgb(24, 211, 24);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    font-weight: 500;
- }
+  background-color: rgb(48, 48, 48);
+  height: 25px;
+  width: 270px;
+  margin-right: 90px;
+  margin-top: 20px;
+  float: right;
+  border-style: solid;
+  border-color: white;
+  border-radius: 12px;
+  padding-left: 12px;
+  color: rgb(24, 211, 24);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.imgs {
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  display: inline;
+  margin-left: 50px;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  border-width: 3px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.middle-box {
+  margin-left: 320px;
+  margin-right: 300px;
+  margin-top: 100px;
+}
+
+
+
+.zutaten {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+
+.zutaten:hover {
+  transition: 0.5s;
+  letter-spacing: 2px;
+  color: rgb(24, 211, 24);
+}
+.left1 {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-left: 200px;
+}
+
+.right1 {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  display: inline-block;
+  float: right;
+  margin-right: 200px;
+}
+
+.rezept {
+  color: white;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+  transition: 1s;
+}
+
+.rezept:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: 0.5s;
+}
+
+
+footer {
+
+background-color: black;
+left: 0px;
+right: 0px;
+bottom: 0px;
+height: 60px;
+}
+
+.imggg {
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    transition: 1.2s;
+    position: relative;
+
+  }
+  
+
+.t11 {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 40px;
+background-color: rgba(187, 187, 187, 0.556);
+}
